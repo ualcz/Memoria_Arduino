@@ -1,31 +1,29 @@
-# Jogo da Memória com Arduino
+# Memory Game with Arduino
 
-Este projeto é um **Jogo da Memória** desenvolvido com a plataforma **Arduino**. O objetivo do jogo é ajudar os jogadores a melhorarem suas habilidades de memória, memorizando e reproduzindo uma sequência de luzes e sons que ficam cada vez mais complexas.
+This project is a **Memory Game** developed with the **Arduino** platform. The aim of the game is to help players improve their memory skills by memorizing and reproducing an increasingly complex sequence of lights and sounds.
 
-## 📦 Componentes Utilizados
+## 📦 Components Used
 
 - 1x Arduino Uno
-- 4x LEDs (vermelho, verde, azul, amarelo)
-- 4x Botões Push-button
-- 1x Buzzer 
-- Resistores 220Ω para os LEDs
-- Protoboard e jumpers
+- 4x LEDs (red, green, blue, yellow)
+- 4x Push-button switches
+- 1x Buzzer
+- 220Ω resistors for the LEDs
+- Breadboard and jumpers
 
-## 📐 Circuito
+## 📐 Circuit
 
-O circuito é composto por quatro LEDs e quatro botões, onde cada LED corresponde a um botão. O jogador deve seguir uma sequência aleatória de LEDs que é mostrada, pressionando os botões correspondentes na mesma ordem.
-![Texto alternativo](./Imagem/jogo.png)
+The circuit consists of four LEDs and four buttons, where each LED corresponds to a button. The player must follow a random sequence of LEDs that is displayed by pressing the corresponding buttons in the same order.
+![Alt text](./Imagem/jogo.png)
 
-### Esquema Básico de Conexões:
+### Basic Connection Diagram:
 
+## 🕹️ How to Play
 
-## 🕹️ Como Jogar
+1. When the game starts, the Arduino will light up a sequence of LEDs.
+2. The player must press the corresponding buttons in the same order.
+3. If the player gets the sequence right, a new sequence will be shown, adding an additional step.
+4. The game continues until the player fails to follow the sequence, ending the game.
 
-1. Quando o jogo começar, o Arduino acenderá uma sequência de LEDs.
-2. O jogador deve pressionar os botões correspondentes na mesma ordem.
-3. Se o jogador acertar a sequência, uma nova sequência será mostrada, adicionando um novo passo.
-4. O jogo continua até que o jogador erre a sequência, encerrando o jogo.
-
-
-## 🤝 Contribuições
-Contribuições, issues e solicitações de pull requests são bem-vindas! Para mudanças maiores, por favor, abra uma issue primeiro para discutir o que você gostaria de mudar.
+## 🤝 Contributions
+Contributions, issues, and pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
